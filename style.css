@@ -1,0 +1,54 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and center content */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Style the header */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* Style the paragraphs */
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Style the unordered list */
+ul {
+  margin-left: 20px;
+}
+
+/* Style list items */
+li {
+  list-style-type: disc;
+  margin-bottom: 8px;
+}
+
+/* Style the footer */
+footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #777;
+}
+
+/* Apply responsive styles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+}
